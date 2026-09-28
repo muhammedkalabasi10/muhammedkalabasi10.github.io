@@ -1,0 +1,214 @@
+<!doctype html>
+
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <title>SwipeClean — Veri Silme Talebi</title>
+  <style>
+    :root{
+      color-scheme:light;
+      --bg:#f3f9f7;
+      --card:#fff;
+      --ink:#173c38;
+      --muted:#647d79;
+      --brand:#16695f;
+      --line:#dce9e5;
+      --soft:#d9f0e9;
+      --danger:#a33b32
+    }
+
+```
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font:16px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif
+}
+
+main{
+  width:min(760px,calc(100% - 32px));
+  margin:48px auto
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom:24px
+}
+
+.mark{
+  display:grid;
+  place-items:center;
+  width:48px;
+  height:48px;
+  border-radius:16px;
+  background:var(--brand);
+  color:#fff;
+  font-size:24px
+}
+
+article{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:28px;
+  padding:clamp(24px,6vw,54px)
+}
+
+h1{
+  font-size:clamp(30px,6vw,46px);
+  line-height:1.15;
+  margin:0 0 8px
+}
+
+h2{
+  font-size:20px;
+  margin:30px 0 8px
+}
+
+p,li{
+  color:var(--muted)
+}
+
+.notice{
+  padding:18px 20px;
+  border-radius:18px;
+  background:var(--soft);
+  color:var(--ink)
+}
+
+a{
+  color:var(--brand);
+  font-weight:700
+}
+
+.danger{
+  color:var(--danger)
+}
+
+footer{
+  text-align:center;
+  color:var(--muted);
+  font-size:13px;
+  margin:22px 0
+}
+```
+
+  </style>
+</head>
+
+<body>
+  <main>
+
+```
+<div class="brand">
+  <div class="mark">↙</div>
+  <strong>SwipeClean</strong>
+</div>
+
+<article>
+
+  <h1>Veri silme talebi</h1>
+
+  <p class="notice">
+    SwipeClean kullanıcı hesabı oluşturmaz. Uygulamadaki fotoğraf ve videolar
+    cihazınızda kalır; SwipeClean bunları kendi sunucularında saklamaz.
+    Aşağıdaki yöntemleri kullanarak uygulamayla ilişkili verileriniz hakkında
+    silme talebinde bulunabilirsiniz.
+  </p>
+
+  <h2>Yerel uygulama verilerinin silinmesi</h2>
+
+  <p>
+    SwipeClean'in tarama sonuçları, görsel analiz özetleri, SHA-256 özetleri,
+    saklama ve silme seçimleri, korunan klasörler ve ücretsiz kullanım
+    bilgileri cihazdaki uygulama alanında tutulur.
+  </p>
+
+  <p>
+    Bu yerel verileri silmek için Android'in uygulama ayarlarından
+    SwipeClean'in uygulama verilerini temizleyebilir veya uygulamayı
+    kaldırabilirsiniz. Bu işlem uygulamanın cihazda tuttuğu yerel kayıtları
+    ve önbellekleri kaldırır.
+  </p>
+
+  <h2>Fotoğraf ve videolar</h2>
+
+  <p>
+    SwipeClean, izin verdiğiniz fotoğraf ve videoları Android MediaStore
+    üzerinden cihaz üzerinde inceler. Fotoğraf ve video içerikleri
+    SwipeClean'in geliştiricisine ait bir sunucuya veya bulut yapay zekâ
+    hizmetine gönderilmez.
+  </p>
+
+  <p>
+    Bir fotoğraf veya videoyu silmek istediğinizde işlem Android'in sistem
+    onayı üzerinden gerçekleştirilir. SwipeClean, Android sistem onayı
+    verilmeden medya dosyalarını kalıcı olarak silmez.
+  </p>
+
+  <h2>Veri silme talebi</h2>
+
+  <p>
+    SwipeClean tarafından işlenen verilerle ilgili bir silme talebiniz,
+    gizlilik sorunuz veya veri işleme hakkında bir başvurunuz varsa
+    aşağıdaki e-posta adresinden bizimle iletişime geçebilirsiniz:
+  </p>
+
+  <p>
+    <a href="mailto:swipecleandestek@hotmail.com?subject=SwipeClean%20veri%20silme%20talebi">
+      swipecleandestek@hotmail.com
+    </a>
+  </p>
+
+  <p>
+    E-postanızda “SwipeClean veri silme talebi” konusunu kullanabilirsiniz.
+    Talebinizi yerine getirmek için gerekli olmayan kişisel bilgileri
+    göndermenize gerek yoktur. Kimlik doğrulaması gerektiğinde yalnızca
+    talebi değerlendirmek için gerekli bilgileri isteyebiliriz.
+  </p>
+
+  <h2>Üçüncü taraf hizmetler</h2>
+
+  <p>
+    SwipeClean'in ücretsiz sürümünde Google Mobile Ads ve Google UMP
+    hizmetleri kullanılabilir. Bu hizmetler reklam, güvenlik, ölçüm ve
+    tercih yönetimi amacıyla kendi sistemlerinde veri işleyebilir.
+    Bu veriler SwipeClean'in kendi sunucusunda tutulmaz.
+  </p>
+
+  <p>
+    Google tarafından işlenen verilerle ilgili silme veya gizlilik
+    talepleri için Google'ın kendi gizlilik ve veri yönetimi mekanizmaları
+    kullanılmalıdır.
+  </p>
+
+  <h2>Hesap bulunmamaktadır</h2>
+
+  <p>
+    SwipeClean'de kullanıcı hesabı, kullanıcı adı, şifre veya uygulamaya
+    özel oturum sistemi bulunmaz. Bu nedenle silinecek bir SwipeClean
+    kullanıcı hesabı yoktur.
+  </p>
+
+  <h2>Gizlilik Politikası</h2>
+
+  <p>
+    SwipeClean'in veri işleme uygulamaları hakkında daha fazla bilgi için
+    <a href="privacy-policy.html">Gizlilik Politikasını okuyun</a>.
+  </p>
+
+</article>
+
+<footer>
+  © 2026 SwipeClean
+</footer>
+```
+
+  </main>
+</body>
+</html>
